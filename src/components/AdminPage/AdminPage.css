@@ -1,0 +1,74 @@
+.AdminPage__item {
+  margin: 20px;
+  flex: 1 0 30%;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+
+.AdminPage__buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.AdminPage__addItem {
+  padding: 20px;
+  color: white;
+  background-color: #FFC85E;
+  border-radius: 78px;
+  width: fit-content;
+  cursor: pointer;
+
+}
+
+.AdminPage__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.AdminPage__div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AdminPage__div input {
+  flex: 0 0 50%;
+}
+
+.AdminPage__buttons {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.AdminPage__button {
+  padding: 20px;
+  color: white;
+  border-radius: 79px;
+  background: #FFC85E;
+  cursor: pointer;
+}
+
+.AdminPage__change {
+  border: none;
+}
+
+
+@media (max-width: 780px) {
+  .AdminPage__addItem {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .AdminPage__item {
+    margin: 20px 10px;
+    padding: 15px 15px;
+  }
+  .AdminPage__div {
+    font-size: 13px;
+  }
+  .AdminPage__div input {
+    flex: 0 0 55%;
+  }
+}

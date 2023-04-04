@@ -1,0 +1,104 @@
+.Basket {
+  padding: 70px 100px;
+  min-height: 50vh;
+}
+
+.Basket__article {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.Basket__confirmButton {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  background: #FFC85E;
+  border-radius: 79px;
+  padding: 20px 35px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.Basket__allPriceAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  flex: 1 0 auto;
+}
+
+.Basket__hiddenBlock {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 900px) {
+  .Basket {
+    padding: 50px 70px;
+  }
+  .FilterTopBlock__articleAndSort {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FilterTopBlock__sort {
+    margin-top: 15px;
+  }
+  .Basket__article {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 430px) {
+  .Basket__allPriceAndButton {
+    margin-top: 45px;
+    flex-direction: column;
+  }
+  .Basket {
+    padding: 35px 50px;
+  }
+  .FilterTopBlock__articleAndSort {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FilterTopBlock__sort {
+    margin-top: 15px;
+  }
+  .Basket__allPrice {
+    order: -1;
+    margin-bottom: 15px;
+  }
+  .Basket__confirmButton {
+    order: 0;
+  }
+  .Basket__article {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+}
+@media (max-width: 380px) {
+  .Basket__allPriceAndButton {
+    margin-top: 45px;
+  }
+  .Basket {
+    padding: 35px 15px;
+  }
+  .FilterTopBlock__articleAndSort {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FilterTopBlock__sort {
+    margin-top: 15px;
+  }
+  .Basket__article {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}

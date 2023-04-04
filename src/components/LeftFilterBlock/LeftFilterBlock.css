@@ -1,0 +1,154 @@
+.LeftFilterBlock {
+  padding: 0px 0px 0px 100px;
+}
+
+.PriceFilter__value {
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.PriceFilter__value input {
+  background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+  border-radius: 1000px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #3F4E65;
+  max-width: 100%;
+  border: none;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.PriceFilter__separator {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #3F4E65;
+}
+
+.PriceFilter__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.PriceFilter__wrapper>div {
+  margin-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.PriceFilter__description {
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+
+.PriceFilter__description--price {
+  font-weight: 300;
+  color: #3F4E65;
+}
+
+.PriceFilter__description--currency {
+  font-weight: 500;
+  color: #111111;
+}
+
+.PriceFilter {
+  margin-bottom: 30px;
+}
+
+.ManufacturerFilter__article {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.ManufacturerFilter__string {
+  display: flex;
+}
+
+.ManufacturerFilter__string input {
+  margin-right: 10px;
+}
+
+.ManufacturerFilter__string button {
+  margin-left: 3px;
+  margin-right: 5px;
+  height: 16px;
+  width: 16px;
+}
+
+.ManufacturerFilter__string--button {
+  display: flex;
+  align-items: center;
+}
+
+.ManufacturerFilter__string li {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #3F4E65;
+
+}
+
+.ManufacturerFilter__string--quantity {
+  font-size: 10px;
+  color: #3F4E65;
+}
+
+.ManufacturerFilter__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ManufacturerFilter__article {
+  margin-bottom: 15px;
+}
+
+.LeftTypeFilter {
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.LeftTypeFilter > div {
+  margin: 15px 0;
+}
+
+.LeftTypeFilter > div:last-child {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1310px) {
+  .LeftFilterBlock  {
+    flex: 1 0 25%;
+  }
+}
+
+@media (max-width: 900px) {
+  .LeftFilterBlock  {
+    padding: 0 0 0 70px;
+  }
+}
+
+@media (max-width: 780px) {
+  .LeftFilterBlock {
+    padding: 0 0 0 55px;
+  }
+}
+@media (max-width: 740px) {
+  .LeftFilterBlock {
+    display: none;
+  }
+}
+

@@ -1,0 +1,128 @@
+.FilterTopBlock__article {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.FilterTopBlock__articleAndSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sortingButton, .sortingButton:active, .sortingButton:focus {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3F4E65;
+  margin-left: 5px;
+  appearance: none;
+}
+
+.FilterTopBlock__sort {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.FilterTopBlock {
+  padding: 40px 100px;
+}
+
+.filteringButtons {
+  margin-top: 45px;
+}
+
+@media (max-width: 900px) {
+  .FilterTopBlock {
+    padding: 30px 70px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .FilterTopBlock__article {
+    font-size: 30px;
+  }
+  .FilterTopBlock__sort {
+    font-size: 13px;
+  }
+  .sortingButton {
+    font-size: 13px;
+  }
+  .filteringButtons {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 950px) {
+  .filteringButtons {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 780px) {
+  .FilterTopBlock {
+    padding: 25px 55px;
+  }
+  .FilterTopBlock__articleAndSort {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FilterTopBlock__sort {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 740px) {
+  .FilterTopBlock {
+    padding: 25px 55px 15px;
+  }
+  .filteringButtons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .filteringButton {
+    margin-bottom: 15px;
+    margin-right: 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .FilterTopBlock__article {
+    font-size: 25px;
+  }
+}
+@media (max-width: 380px) {
+  .FilterTopBlock {
+    padding: 25px 15px 15px;
+  }
+  .filteringButtons {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16px;
+  }
+  .FilterTopBlock__sort {
+    font-size: 16px;
+  }
+  .sortingButton {
+    font-size: 16px;
+  }
+}
+@media (max-width: 350px) {
+  .FilterTopBlock__article {
+    font-size: 20px;
+  }
+  .filteringButtons {
+    margin-top: 14px;
+  }
+  .FilterTopBlock__sort {
+    font-size: 14px;
+  }
+  .sortingButton {
+    font-size: 14px;
+  }
+}

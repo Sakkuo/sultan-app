@@ -1,0 +1,27 @@
+.ButtonYellow {
+  border-radius: 79px;
+  background: #FFC85E;
+  cursor: pointer;
+  line-height: 17px;
+  display: flex;
+  padding: 21px 45px 19px 45px;
+  color: #FFFFFF;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+
+.button__text {
+  margin-right: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 1315px) {
+  .ButtonYellow {
+    line-height: 15px;
+    padding: 18px 30px 17px 30px;
+  }
+}

@@ -1,0 +1,31 @@
+.ContactList__number {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ContactList__time {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+.ContactList__button {
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration-line: underline;
+  opacity: 70%;
+}
+
+.ContactList {
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.ContactList--white {
+  color: white;
+  align-items: flex-start;
+}

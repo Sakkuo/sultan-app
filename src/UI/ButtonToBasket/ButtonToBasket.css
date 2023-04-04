@@ -1,0 +1,23 @@
+.ButtonToBasket {
+  color: white;
+  background-color: #FFC85E;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 25px;
+  width: fit-content;
+}
+
+.ButtonToBasket__icon i {
+  font-size: 1;
+}
+
+.ButtonToBasket__text {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  margin-right: 6px;
+}

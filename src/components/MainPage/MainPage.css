@@ -1,0 +1,29 @@
+.MainPage__tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MainPage__row--second {
+  width: 70%
+}
+
+.MainPage__row--first {
+  width: 30%;
+}
+
+@media (max-width: 1000px) {
+  .MainPage__row--first {
+    width: 40%;
+  }
+  .MainPage__row--second {
+    width: 60%
+  }
+}
+@media (max-width: 740px) {
+  .MainPage__row--first {
+    display: none;
+  }
+  .MainPage__row--second {
+    width: 100%;
+  }
+}

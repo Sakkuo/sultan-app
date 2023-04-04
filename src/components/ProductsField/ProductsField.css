@@ -1,0 +1,50 @@
+.ProductsField {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 100px 100px 100px;
+  justify-content: space-around;
+  width: fit-content;
+}
+
+.filteringButtons {
+  display: flex;
+}
+
+.filteringButton {
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.filteringButton--active {
+  font-weight: 700;
+}
+
+@media (max-width: 1310px) {
+  .ProductsField {
+    padding: 10px 70px 70px;
+  }
+}
+@media (max-width: 1050px) {
+  .ProductsField {
+    padding: 10px 50px 50px;
+  }
+  .filteringButton {
+    margin-right: 35px;
+  }
+}
+@media (max-width: 780px) {
+  .filteringButton {
+    margin-right: 25px;
+  }
+}
+@media (max-width: 780px) {
+  .ProductsField {
+    padding: 10px 30px 30px;
+  }
+}
+@media (max-width: 450px) {
+  .ProductsField {
+    padding: 10px 15px 15px;
+  }
+}

@@ -1,0 +1,82 @@
+.BasketShopping__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.BasketShopping__text--basket {
+  font-weight: 300;
+  font-size: 12px;
+  color: #3F4E65;
+}
+
+.BasketShopping__text--price {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111111;
+}
+
+.BasketShopping {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.BasketShopping__img--img {
+  font-size: 26px;
+  color: #3F4E65;
+  margin-right: 22px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.BasketShopping__img--value {
+  color: white;
+  background-color: #FFC85E;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  position: absolute;
+  top: 110px;
+  right: 163px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+@media (max-width: 1250px) {
+  .BasketShopping__img--value {
+    top: 95px;
+  }
+}
+@media (max-width: 1050px) {
+  .BasketShopping__img--value {
+    top: 90px;
+  }
+}
+@media (max-width: 900px) {
+  .BasketShopping__img--value {
+    top: 80px;
+    right: 128px;
+  }
+}
+@media (max-width: 780px) {
+  .BasketShopping__img--value {
+    top: 80px;
+    right: 118px;
+  }
+}
+@media (max-width: 550px) {
+  .BasketShopping__img--value {
+    top: 65px;
+    right: 118px;
+  }
+}
+@media (max-width: 380px) {
+  .BasketShopping__img--value {
+    top: 65px;
+    right: 78px;
+  }
+}

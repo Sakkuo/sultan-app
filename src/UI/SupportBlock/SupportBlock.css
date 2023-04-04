@@ -1,0 +1,16 @@
+
+
+.SupportBlock__img--img {
+  border-radius: 50%;
+}
+
+.SupportBlock {
+  display: flex;
+}
+
+
+@media (max-width: 1250px) {
+  .SupportBlock {
+    display: none;
+  }
+}

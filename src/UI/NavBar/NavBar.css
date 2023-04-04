@@ -1,0 +1,66 @@
+.NavBar__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.NavBar__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+
+@media (max-width: 1050px) {
+  .NavBar__priceList {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .NavBar__top {
+    padding: 10px 70px;
+  }
+
+  .NavBar__bottom {
+    padding: 10px 70px;
+  }
+}
+
+@media (max-width: 780px) {
+  .NavBar__searchArea {
+    display: none;
+  }
+  .NavBar__top {
+    padding: 10px 55px;
+  }
+
+  .NavBar__bottom {
+    padding: 10px 55px;
+  }
+}
+@media (max-width: 550px) {
+  .NavBar__top {
+    padding: 10px 55px;
+    justify-content: center;
+  }
+  .NavBar__yellowButton {
+    display: none;
+  }
+  .NavBar__bottom {
+    padding: 10px 55px;
+  }
+}
+@media (max-width: 380px) {
+  .NavBar__top {
+    padding: 10px 15px;
+    justify-content: center;
+  }
+  .NavBar__yellowButton {
+    display: none;
+  }
+  .NavBar__bottom {
+    padding: 10px 15px;
+  }
+}

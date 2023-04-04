@@ -1,0 +1,42 @@
+.Navigation__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Navigation__list li {
+  cursor: pointer;
+}
+
+.Navigation {
+  width: 40%;
+
+}
+
+@media (max-width: 1250px) {
+  .Navigation__list {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .Navigation__list {
+    font-size: 11px;
+    padding: 0;
+  }
+  .Navigation {
+    width: 42%;
+  }
+}
+@media (max-width: 780px) {
+  .Navigation {
+    width: 70%;
+  }
+}
+@media (max-width: 550px) {
+  .Navigation {
+    display: none
+  }
+}

@@ -1,0 +1,29 @@
+.ReducedNav {
+  padding: 30px 100px 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 120%;
+  color: #3F4E65;
+}
+
+.ReducedNav__main {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.ReducedNav__block {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .ReducedNav {
+    padding: 25px 70px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 780px) {
+  .ReducedNav {
+    display: none;
+  }
+}
